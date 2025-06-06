@@ -7,8 +7,8 @@ package geometry;
  * Поддерживает операции сравнения точек и клонирования.
  */
 public class Point implements Cloneable {
-    private double x;
-    private double y;
+    private double x = 0;
+    private double y = 0;
 
     /**
      * Создает новую точку с указанными координатами.
