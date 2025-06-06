@@ -8,7 +8,7 @@ import main.Num;
  * Реализация интерфейса Num для целых чисел.
  */
 public class IntNum implements Num {
-    private final int value;
+    private int value = 0;
 
     /**
      * Создает новый экземпляр IntNum.
